@@ -15,6 +15,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-deepseek" },
     { name = "langchain-google-genai" },
     { name = "langchain-groq" },
     { name = "langchain-openai" },
@@ -26,6 +27,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "langchain", specifier = ">=1.5.2" },
     { name = "langchain-community", specifier = ">=0.4.2" },
+    { name = "langchain-deepseek", specifier = ">=1.2.1" },
     { name = "langchain-google-genai", specifier = ">=4.5.2" },
     { name = "langchain-groq", specifier = ">=1.2.1" },
     { name = "langchain-openai", specifier = ">=1.8.5" },
@@ -1133,6 +1135,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/75/ba/281e953ec491deda5c9ef8633b47647c41836c6b6fe1395e9d99567dbb44/langchain_core-1.8.4.tar.gz", hash = "sha256:af8976d6df0b3338dc7c830ebf1c505c0fc05a0e3eb564f4901ed7546a418ab6", size = 1025230, upload-time = "2026-11-19T22:35:43.367Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/16/6d/35b048329e70492ca0d7561431627ac3b7da1a2dedc99870ca188902529c/langchain_core-1.8.4-py3-none-any.whl", hash = "sha256:5755dee8f8b0c709cd22436dea3689c74a3f6e9dc4251590797dcd66bcd1ef67", size = 591065, upload-time = "2026-11-19T22:35:41.819Z" },
+]
+
+[[package]]
+name = "langchain-deepseek"
+version = "1.2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "langchain-openai" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/14/ea/61a0ab4a9dd842cb101aa1dd34789b486465b1c29e7b36260e086be0bac0/langchain_deepseek-1.2.1.tar.gz", hash = "sha256:9af0e5e5834368fa6f822b07afe2bb2c7acaa8cfdbe96db0a64794aed6358958", size = 141459, upload-time = "2026-11-18T17:27:29.673Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/26/2e/122308d39c585ea58408431ce1136f0cdb82bd1b7189ea215038c4e835d0/langchain_deepseek-1.2.1-py3-none-any.whl", hash = "sha256:8456346b9e6d05b3419e32ca853a35feedb63d697f07f6e4d8af2764e76b73ac", size = 11994, upload-time = "2026-11-18T17:27:28.575Z" },
 ]
 
 [[package]]
